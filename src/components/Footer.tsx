@@ -7,9 +7,9 @@ export function Footer() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div>
-            <h3 className="text-2xl font-serif mb-6">KNIGHT FRANK</h3>
+            <h3 className="text-2xl font-serif mb-6 tracking-wide">LUXURY RESIDENCE</h3>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
-              Headquartered in London, Knight Frank has more than 500 offices across 60 territories and more than 20,000 people.
+              Headquartered in London, Luxury Residence has more than 500 offices across 60 territories and more than 20,000 people.
             </p>
             <div className="flex gap-4">
               <a href="#" className="p-2 border border-white/20 rounded-full hover:bg-white hover:text-primary transition-all">
@@ -74,7 +74,7 @@ export function Footer() {
             <a href="#" className="hover:text-white">Modern Slavery Statement</a>
           </div>
           <p className="text-xs text-slate-500">
-            © Knight Frank LLP 2026. All rights reserved.
+            © Luxury Residence LLP 2026. All rights reserved.
           </p>
         </div>
       </div>

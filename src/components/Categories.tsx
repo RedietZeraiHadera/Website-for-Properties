@@ -1,4 +1,4 @@
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import { ScrollArea, ScrollBar } from "./ui/scroll-area";
 
 const categories = [
   { title: "New homes", image: "https://images.unsplash.com/photo-1448630360428-65ff2c0257ef?q=80&w=1000" },
