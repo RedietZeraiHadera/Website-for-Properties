@@ -1,5 +1,5 @@
 import * as React from "react";
-import { TrendingUp, ArrowUpRight, Scale, Calculator, RefreshCw, BarChart3, LineChart } from "lucide-react";
+import { TrendingUp, ArrowUpRight, Calculator, RefreshCw, BarChart3, LineChart } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { motion } from "motion/react";
@@ -9,10 +9,10 @@ interface MarketDashboardProps {
 }
 
 export function MarketDashboard({ onNavigate }: MarketDashboardProps) {
-  // Investment Yield Calculator states
-  const [purchasePrice, setPurchasePrice] = React.useState<string>("1500000");
-  const [monthlyRent, setMonthlyRent] = React.useState<string>("6200");
-  const [annualYield, setAnnualYield] = React.useState<number>(4.96);
+  // Investment Yield Calculator states configured with representative UAE values (5,000,000 AED, 25,000 AED monthly rent)
+  const [purchasePrice, setPurchasePrice] = React.useState<string>("5000000");
+  const [monthlyRent, setMonthlyRent] = React.useState<string>("25000");
+  const [annualYield, setAnnualYield] = React.useState<number>(6.0);
 
   React.useEffect(() => {
     const price = parseFloat(purchasePrice);
@@ -27,12 +27,12 @@ export function MarketDashboard({ onNavigate }: MarketDashboardProps) {
 
   const stats = [
     {
-      title: "Prime Central London Prices",
-      value: "+2.4%",
+      title: "Prime Dubai Residential Index",
+      value: "+8.4%",
       label: "Annual Growth YoY",
       trend: "up",
-      trendValue: "+0.4% from last quarter",
-      points: [20, 32, 28, 45, 38, 55, 64] // Sparkline values
+      trendValue: "+1.8% from last quarter",
+      points: [25, 38, 30, 52, 45, 68, 84] // Sparkline values
     },
     {
       title: "Global Prime Residential Index",
@@ -44,11 +44,11 @@ export function MarketDashboard({ onNavigate }: MarketDashboardProps) {
     },
     {
       title: "Average Yield in High-End Lettings",
-      value: "4.8%",
+      value: "6.2%",
       label: "Gross Rental Yield",
       trend: "stable",
       trendValue: "0.0% change",
-      points: [45, 46, 48, 47, 48, 48, 48] // Sparkline values
+      points: [58, 60, 61, 62, 62, 62, 62] // Sparkline values
     }
   ];
 
@@ -67,7 +67,7 @@ export function MarketDashboard({ onNavigate }: MarketDashboardProps) {
             Global Market Intelligence
           </h2>
           <p className="text-slate-400 font-sans text-sm mt-3 leading-relaxed">
-            Unrivalled data and advisory analytics from our research division, empowering high-net-worth individuals and corporate partners to make astute, well-timed acquisitions.
+            Unrivalled data and advisory analytics from our research division, empowering high-net-worth individuals and corporate partners to make astute, well-timed acquisitions in the United Arab Emirates.
           </p>
         </div>
 
@@ -145,7 +145,7 @@ export function MarketDashboard({ onNavigate }: MarketDashboardProps) {
                   Read our signature report: <span className="text-secondary italic">The Wealth Report 2026</span>
                 </h5>
                 <p className="text-xs text-slate-400 font-sans leading-relaxed">
-                  Our annual benchmark assessment explores global prime residential indices, generational wealth allocation, private investment inflows, and emerging luxury property hotspots.
+                  Our annual benchmark assessment explores global prime residential indices, generational wealth allocation, private investment inflows, and emerging luxury property hotspots in Dubai and Abu Dhabi.
                 </p>
               </div>
               <Button 
@@ -172,15 +172,15 @@ export function MarketDashboard({ onNavigate }: MarketDashboardProps) {
               <div className="space-y-4">
                 <div>
                   <label className="text-[10px] uppercase tracking-wider text-slate-400 block mb-1.5 font-sans">
-                    Purchase Price (GBP/EUR/USD)
+                    Purchase Price (AED / Dirhams)
                   </label>
                   <div className="relative">
-                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-secondary text-xs">£</span>
+                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-secondary text-xs font-sans font-semibold">AED</span>
                     <Input
                       type="number"
                       value={purchasePrice}
                       onChange={(e) => setPurchasePrice(e.target.value)}
-                      className="bg-white/5 border-white/10 pl-7 text-sm text-white focus-visible:ring-secondary rounded"
+                      className="bg-white/5 border-white/10 pl-11 text-sm text-white focus-visible:ring-secondary rounded"
                     />
                   </div>
                 </div>
@@ -190,12 +190,12 @@ export function MarketDashboard({ onNavigate }: MarketDashboardProps) {
                     Expected Monthly Rental Value
                   </label>
                   <div className="relative">
-                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-secondary text-xs">£</span>
+                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-secondary text-xs font-sans font-semibold">AED</span>
                     <Input
                       type="number"
                       value={monthlyRent}
                       onChange={(e) => setMonthlyRent(e.target.value)}
-                      className="bg-white/5 border-white/10 pl-7 text-sm text-white focus-visible:ring-secondary rounded"
+                      className="bg-white/5 border-white/10 pl-11 text-sm text-white focus-visible:ring-secondary rounded"
                     />
                   </div>
                 </div>
@@ -211,7 +211,7 @@ export function MarketDashboard({ onNavigate }: MarketDashboardProps) {
                 {annualYield}%
               </div>
               <p className="text-[10px] text-slate-400 font-sans mt-2 max-w-xs mx-auto">
-                Prime central averages currently range from 3.8% to 5.2% based on regional tax variations.
+                Prime Dubai residential averages currently range from 5.8% to 8.2% based on waterfront locations.
               </p>
             </div>
           </div>

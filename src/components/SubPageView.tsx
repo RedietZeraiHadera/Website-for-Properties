@@ -191,20 +191,20 @@ export function SubPageView({ category, subOptionTitle, onBack, onNavigate }: Su
                   Need Expert Advice?
                 </p>
                 <p className="text-xs text-slate-600 mb-4 leading-relaxed">
-                  Connect with our prime London residential advisors immediately.
+                  Connect with our prime UAE residential advisors immediately.
                 </p>
                 <div className="space-y-2">
                   <a 
-                    href="tel:+442076298171" 
+                    href="tel:+97143629000" 
                     className="flex items-center gap-2 text-xs font-medium text-primary hover:text-secondary py-1"
                   >
-                    <Phone className="w-3.5 h-3.5 text-secondary" /> +44 (0) 20 7629 8171
+                    <Phone className="w-3.5 h-3.5 text-secondary" /> +971 (0) 4 362 9000
                   </a>
                   <a 
-                    href="mailto:london@luxuryresidence.com" 
+                    href="mailto:dubai@luxuryresidence.com" 
                     className="flex items-center gap-2 text-xs font-medium text-primary hover:text-secondary py-1"
                   >
-                    <Mail className="w-3.5 h-3.5 text-secondary" /> london@luxuryresidence.com
+                    <Mail className="w-3.5 h-3.5 text-secondary" /> dubai@luxuryresidence.com
                   </a>
                 </div>
               </div>
@@ -518,11 +518,11 @@ export function SubPageView({ category, subOptionTitle, onBack, onNavigate }: Su
                           >
                             <div>
                               <label className="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1">
-                                Property Postcode / Zip Code *
+                                Property Community / Area *
                               </label>
                               <Input 
                                 required
-                                placeholder="e.g. SW1X 7XL"
+                                placeholder="e.g. Palm Jumeirah, Dubai"
                                 value={formData.postcode}
                                 onChange={(e) => setFormData({...formData, postcode: e.target.value})}
                               />
@@ -608,7 +608,7 @@ export function SubPageView({ category, subOptionTitle, onBack, onNavigate }: Su
                                 </label>
                                 <Input 
                                   required
-                                  placeholder="e.g. +44 7700 900077"
+                                  placeholder="e.g. +971 50 123 4567"
                                   value={formData.phone}
                                   onChange={(e) => setFormData({...formData, phone: e.target.value})}
                                 />
@@ -660,7 +660,7 @@ export function SubPageView({ category, subOptionTitle, onBack, onNavigate }: Su
                           Request Successfully Registered
                         </h5>
                         <p className="text-slate-500 font-sans max-w-sm mx-auto text-sm leading-relaxed">
-                          Thank you, <strong>{formData.name}</strong>. An advisor from Luxury Residence London has received your credentials and will consult the registry regarding your postcode details shortly.
+                          Thank you, <strong>{formData.name}</strong>. An advisor from Luxury Residence Dubai has received your credentials and will consult the registry regarding your property details shortly.
                         </p>
                         <Button onClick={() => setFormSubmitted(false)} variant="outline" className="mt-4">
                           New Request

@@ -41,36 +41,36 @@ export const navigationData: Record<string, NavigationCategory> = {
         items: [
           {
             id: "b1",
-            title: "The Belgravia Penthouse",
-            location: "Belgravia, London SW1X",
-            price: "£14,500,000",
+            title: "The Palm Jumeirah Penthouse",
+            location: "Palm Jumeirah, Dubai UAE",
+            price: "AED 68,000,000",
             image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
             beds: 5,
             baths: 6,
-            sqft: "4,820",
-            tags: ["Penthouse", "New Build", "Concierge"]
+            sqft: "5,820",
+            tags: ["Penthouse", "Infinity Pool", "Concierge"]
           },
           {
             id: "b2",
-            title: "Mayfair Edwardian Manor",
-            location: "Mayfair, London W1K",
-            price: "£22,000,000",
+            title: "Emirates Hills Signature Mansion",
+            location: "Emirates Hills, Dubai UAE",
+            price: "AED 95,000,000",
             image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
             beds: 7,
             baths: 8,
-            sqft: "7,450",
-            tags: ["Heritage", "Private Garden", "Cellar"]
+            sqft: "12,450",
+            tags: ["Golf Course View", "Private Cinema", "Private Gym"]
           },
           {
             id: "b3",
-            title: "Chelsea Riverside Apartment",
-            location: "Chelsea, London SW3",
-            price: "£6,750,000",
+            title: "Downtown Opera Penthouse",
+            location: "Downtown Dubai, UAE",
+            price: "AED 31,000,000",
             image: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80",
             beds: 3,
             baths: 3,
-            sqft: "2,100",
-            tags: ["Waterfront", "Balcony", "Parking"]
+            sqft: "3,100",
+            tags: ["Burj Khalifa View", "Balcony", "Valet Parking"]
           }
         ]
       },
@@ -110,14 +110,14 @@ export const navigationData: Record<string, NavigationCategory> = {
         items: [
           {
             id: "nd1",
-            title: "The Regent's Collection",
-            location: "Regent's Park, London NW1",
-            price: "From £2,450,000",
+            title: "The Royal Atlantis Residences",
+            location: "Palm Jumeirah, Dubai UAE",
+            price: "From AED 12,500,000",
             image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
             beds: 2,
             baths: 2,
-            sqft: "1,150",
-            tags: ["Under Construction", "Gym", "Lounge"]
+            sqft: "1,850",
+            tags: ["Off-Plan", "Private Beach", "Sky Pool"]
           }
         ]
       },
@@ -128,7 +128,7 @@ export const navigationData: Record<string, NavigationCategory> = {
         items: [
           {
             id: "ab1",
-            title: "Understanding SDLT (Stamp Duty) for Luxury Properties",
+            title: "Securing the 10-Year UAE Golden Visa via Property Investment",
             author: "Liam Montgomery",
             date: "June 2026",
             readTime: "6 min read",
@@ -136,7 +136,7 @@ export const navigationData: Record<string, NavigationCategory> = {
           },
           {
             id: "ab2",
-            title: "The Complete Guide to Prime London Residential Purchases",
+            title: "The Complete Guide to Prime Dubai & Abu Dhabi Real Estate Acquisition",
             author: "Sarah Jenkins",
             date: "May 2026",
             readTime: "12 min read",
@@ -151,30 +151,30 @@ export const navigationData: Record<string, NavigationCategory> = {
     options: [
       {
         title: "Residential for Rent",
-        description: "Premium rental options including historic townhouses and high-spec flats.",
+        description: "Premium rental options including beach villas and high-spec luxury apartments.",
         type: "properties",
         items: [
           {
             id: "r1",
-            title: "Knightsbridge Luxury Townhouse",
-            location: "Knightsbridge, London SW7",
-            price: "£4,500 / week",
+            title: "Saadiyat Island Beach Villa",
+            location: "Saadiyat Island, Abu Dhabi UAE",
+            price: "AED 45,000 / week",
             image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80",
             beds: 4,
             baths: 4,
-            sqft: "3,100",
-            tags: ["Furnished", "24/7 Security", "Roof Terrace"]
+            sqft: "4,500",
+            tags: ["Beachfront", "24/7 Security", "Private Pool"]
           },
           {
             id: "r2",
-            title: "Notting Hill Garden Duplex",
-            location: "Notting Hill, London W11",
-            price: "£1,850 / week",
+            title: "Dubai Marina Waterfront Duplex",
+            location: "Dubai Marina, Dubai UAE",
+            price: "AED 18,500 / week",
             image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
             beds: 2,
             baths: 2,
-            sqft: "1,450",
-            tags: ["Private Entrance", "Garden", "Pet Friendly"]
+            sqft: "1,950",
+            tags: ["Marina Skyline", "Fully Furnished", "Spa Access"]
           }
         ]
       },
@@ -198,12 +198,12 @@ export const navigationData: Record<string, NavigationCategory> = {
       },
       {
         title: "Renting Guide",
-        description: "What tenant covenants, holding deposits, and references mean in premium zones.",
+        description: "What tenant covenants, Ejari registration, and security deposits mean in premium zones.",
         type: "articles",
         items: [
           {
             id: "ar1",
-            title: "Navigating Tenancy Agreements in High-Value Postcodes",
+            title: "Navigating Ejari & Rental Disputes in High-Value UAE Districts",
             author: "Rebecca Sterling",
             date: "April 2026",
             readTime: "5 min read",
@@ -263,7 +263,7 @@ export const navigationData: Record<string, NavigationCategory> = {
         items: [
           {
             id: "lnd1",
-            title: "EPC Regulations Update: Preparing Your Rental Portfolios",
+            title: "DLD Property Management Regulations: What Landlords Need to Know",
             author: "Fiona Macpherson",
             date: "May 2026",
             readTime: "9 min read",
@@ -271,7 +271,7 @@ export const navigationData: Record<string, NavigationCategory> = {
           },
           {
             id: "lnd2",
-            title: "Optimal Landlord Tax Structuring: Expert Recommendations",
+            title: "Optimal Landlord Tax Structuring & Off-shore holding: Expert Recommendations",
             author: "Marcus Vance",
             date: "Feb 2026",
             readTime: "11 min read",
@@ -291,21 +291,21 @@ export const navigationData: Record<string, NavigationCategory> = {
         items: [
           {
             id: "c1",
-            title: "The Broadgate Sky Offices",
-            location: "Broadgate, London EC2M",
-            price: "£85 / sq ft",
+            title: "DIFC Al Fattan Sky Suite",
+            location: "DIFC, Dubai UAE",
+            price: "AED 350 / sq ft",
             image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
             sqft: "12,500 - 45,000",
-            tags: ["BREEAM Excellent", "Terraces", "Fitted out"]
+            tags: ["LEED Gold", "Sky Terrace", "Fully Fitted"]
           },
           {
             id: "c2",
-            title: "Canary Wharf Plaza Suite",
-            location: "Canary Wharf, London E14",
-            price: "£62 / sq ft",
+            title: "Downtown Emaar Square Suite",
+            location: "Downtown Dubai, UAE",
+            price: "AED 240 / sq ft",
             image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
             sqft: "8,200",
-            tags: ["High Rise", "Flexible Layout", "Gym Access"]
+            tags: ["High Rise", "Flexible Layout", "Metro Connected"]
           }
         ]
       },
@@ -316,12 +316,12 @@ export const navigationData: Record<string, NavigationCategory> = {
         items: [
           {
             id: "cs1",
-            title: "Prime Shoreditch Retail Block",
-            location: "Shoreditch, London EC1A",
-            price: "£11,250,000",
+            title: "City Walk Premium Retail Boulevard",
+            location: "City Walk, Dubai UAE",
+            price: "AED 52,000,000",
             image: "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?auto=format&fit=crop&w=800&q=80",
             sqft: "6,800",
-            tags: ["Fully Let", "High Footfall", "Income Producing"]
+            tags: ["Fully Let", "High Footfall", "Premium Yield"]
           }
         ]
       }
@@ -360,11 +360,11 @@ export const navigationData: Record<string, NavigationCategory> = {
         items: [
           {
             id: "st1",
-            title: "Prime Central London Prices",
-            metric: "+2.4%",
+            title: "Prime Dubai Property Index",
+            metric: "+8.4%",
             label: "Annual Growth YoY",
             trend: "up",
-            trendValue: "+0.4% from Q1"
+            trendValue: "+1.8% from Q1"
           },
           {
             id: "st2",
@@ -376,8 +376,8 @@ export const navigationData: Record<string, NavigationCategory> = {
           },
           {
             id: "st3",
-            title: "Average Yield in High-End Lettings",
-            metric: "4.8%",
+            title: "Average Yield in High-End UAE Lettings",
+            metric: "6.2%",
             label: "Gross Rental Yield",
             trend: "stable",
             trendValue: "0.0% change"

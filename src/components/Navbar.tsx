@@ -362,13 +362,13 @@ export function Navbar({ onNavigate, onBackToHome, activeView }: NavbarProps) {
 
               {/* Footer inside mobile menu */}
               <div className="p-6 border-t border-white/10 bg-[#001426] text-center text-xs text-slate-400 space-y-3">
-                <p>Est. Since 1896 • London & Worldwide</p>
+                <p>Est. Since 1896 • Dubai & Worldwide</p>
                 <div className="flex justify-center gap-4 text-slate-300">
-                  <a href="tel:+442076298171" className="hover:text-white flex items-center gap-1">
+                  <a href="tel:+97143629000" className="hover:text-white flex items-center gap-1">
                     <Phone size={12} /> Call Us
                   </a>
                   <span>|</span>
-                  <a href="mailto:london@luxuryresidence.com" className="hover:text-white flex items-center gap-1">
+                  <a href="mailto:dubai@luxuryresidence.com" className="hover:text-white flex items-center gap-1">
                     <Mail size={12} /> Email Us
                   </a>
                 </div>

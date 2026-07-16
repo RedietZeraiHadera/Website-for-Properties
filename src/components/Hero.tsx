@@ -40,8 +40,8 @@ export function Hero({ onNavigate }: HeroProps) {
   };
 
   const trendingDestinations = [
-    { label: "Belgravia", category: "Buy", subOption: "Residential for Sale" },
-    { label: "Mayfair", category: "Buy", subOption: "Residential for Sale" },
+    { label: "Palm Jumeirah", category: "Buy", subOption: "Residential for Sale" },
+    { label: "Emirates Hills", category: "Buy", subOption: "Residential for Sale" },
     { label: "Cote d'Azur", category: "Buy", subOption: "Luxury Properties" },
     { label: "Verbier", category: "Buy", subOption: "Luxury Properties" },
     { label: "Miami Beach", category: "Overseas", subOption: "US & Americas Properties" },
@@ -141,7 +141,7 @@ export function Hero({ onNavigate }: HeroProps) {
                   <Input 
                     value={searchValue}
                     onChange={(e) => setSearchValue(e.target.value)}
-                    placeholder="Search by London postcodes, neighborhood, or country..." 
+                    placeholder="Search by UAE communities, neighborhood, or country..." 
                     className="h-14 pl-12 pr-4 text-base md:text-lg bg-white/10 border-white/15 text-white placeholder:text-slate-400 focus-visible:ring-secondary focus-visible:border-secondary rounded-md"
                   />
                 </div>

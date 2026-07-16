@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-serif mb-6 tracking-wide">LUXURY RESIDENCE</h3>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
-              Headquartered in London, Luxury Residence has more than 500 offices across 60 territories and more than 20,000 people.
+              Headquartered in Dubai, UAE, Luxury Residence has more than 500 offices across 60 territories and more than 20,000 people.
             </p>
             <div className="flex gap-4">
               <a href="#" className="p-2 border border-white/20 rounded-full hover:bg-white hover:text-primary transition-all">
@@ -55,8 +55,8 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin size={20} className="text-slate-400 shrink-0" />
                 <div>
-                  <p className="text-sm font-medium">Global Headquarters</p>
-                  <p className="text-xs text-slate-400 mt-1">55 Baker Street, London, W1U 8AN</p>
+                  <p className="text-sm font-medium">UAE Headquarters</p>
+                  <p className="text-xs text-slate-400 mt-1">Al Fattan Currency House, DIFC, Dubai, UAE</p>
                 </div>
               </div>
               <FooterButton variant="outline" className="w-full rounded-none border-white/20 hover:bg-white hover:text-primary">

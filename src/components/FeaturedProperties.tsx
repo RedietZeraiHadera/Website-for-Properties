@@ -9,42 +9,42 @@ interface FeaturedPropertiesProps {
 const featuredListings = [
   {
     id: "b1",
-    title: "The Belgravia Penthouse",
-    location: "Belgravia, London SW1X",
-    price: "£14,500,000",
+    title: "The Palm Jumeirah Penthouse",
+    location: "Palm Jumeirah, Dubai UAE",
+    price: "AED 68,000,000",
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
     beds: 5,
     baths: 6,
-    sqft: "4,820",
+    sqft: "5,820",
     tag: "Exclusive Penthouse",
     category: "Buy",
     subOption: "Residential for Sale",
     badgeColor: "bg-secondary text-primary"
   },
   {
-    id: "l1",
-    title: "The Cote d'Azur Villa",
-    location: "Saint-Jean-Cap-Ferrat, France",
-    price: "€28,500,000",
+    id: "b2",
+    title: "Emirates Hills Signature Mansion",
+    location: "Emirates Hills, Dubai UAE",
+    price: "AED 95,000,000",
     image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
-    beds: 6,
-    baths: 7,
-    sqft: "6,200",
-    tag: "Signature Waterfront",
+    beds: 7,
+    baths: 8,
+    sqft: "12,450",
+    tag: "Signature Estate",
     category: "Buy",
-    subOption: "Luxury Properties",
+    subOption: "Residential for Sale",
     badgeColor: "bg-amber-100 text-amber-900 border border-amber-200"
   },
   {
     id: "r1",
-    title: "Knightsbridge Luxury Townhouse",
-    location: "Knightsbridge, London SW7",
-    price: "£4,500 / week",
+    title: "Saadiyat Island Beach Villa",
+    location: "Saadiyat Island, Abu Dhabi UAE",
+    price: "AED 45,000 / week",
     image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
     beds: 4,
     baths: 4,
-    sqft: "3,100",
-    tag: "Heritage Residence",
+    sqft: "4,500",
+    tag: "Waterfront Residence",
     category: "Rent",
     subOption: "Residential for Rent",
     badgeColor: "bg-blue-50 text-blue-900 border border-blue-150"
@@ -71,7 +71,7 @@ export function FeaturedProperties({ onNavigate }: FeaturedPropertiesProps) {
               Featured Global Residences
             </h2>
             <p className="text-slate-500 font-sans text-sm mt-3 leading-relaxed">
-              Explore a hand-picked selection of our most spectacular properties, ranging from elegant London townhouses to breathtaking overseas estates.
+              Explore a hand-picked selection of our most spectacular properties, ranging from breathtaking UAE beach villas to ultra-luxury penthouses.
             </p>
           </div>
           
@@ -81,7 +81,7 @@ export function FeaturedProperties({ onNavigate }: FeaturedPropertiesProps) {
               <span>Verified Off-Market Listings Available On Inquiry</span>
             </div>
             <Button 
-              onClick={() => handleViewDetails("Buy", "Luxury Properties")}
+              onClick={() => handleViewDetails("Buy", "Residential for Sale")}
               variant="outline" 
               className="rounded-none border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 font-sans"
             >
